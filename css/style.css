@@ -1,0 +1,91 @@
+.nav-button {
+  display: block;
+}
+
+@media (max-width: 450px) { 
+  .nav-button {
+    display: none;
+  }
+}
+@media (max-width: 450px) { 
+  .head {
+    display: none;
+  }
+}
+.navbar-collapse {
+    flex-grow: initial;
+}
+p {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.dig{
+    background-color:  hsl(240, 19%, 93%);
+    padding: 60px 90px ;
+}
+.card {
+    position: relative;
+   
+    background: white;
+    overflow: hidden;
+    z-index: 1;
+}
+.card-img{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-bottom: 30px;
+}
+.card-img-top{
+    height: 190px;
+}
+header{
+    padding-left: 80px;
+}
+.head{
+    background: url(../images/bg-intro-desktop.svg) no-repeat ;
+    width: 600px;
+    height: 700px;
+    background-size: cover;
+}
+.height{
+    height: 600px;
+}
+footer{
+    background-color:hsl(233, 26%, 24%);
+    color:hsl(0, 100%, 100%);
+    padding: 40px 80px;
+}
+.primary-btn{
+    background: linear-gradient(to right, #31d35c, #2bb7da); 
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px; 
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.primary-btn:hover {
+  opacity: 0.9;
+  filter: brightness(1.15) saturate(1.2);
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 5px;
+}
+.icon{
+    margin-top: 2.5rem;
+    cursor: pointer;
+    
+}
+.width{
+    width: 50%;
+}
+a:hover{
+    color:hsla(136, 64%, 51%, 0.604) ;
+}
+footer ul{
+    list-style: none;
+}
