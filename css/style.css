@@ -7,10 +7,18 @@
     display: none;
   }
 }
-@media (max-width: 450px) { 
-  .head {
-    display: none;
-  }
+.hero-image {
+    background-image: url('../images/bg-intro-desktop.svg');
+    background-size: cover;
+    min-height: 600px;
+}
+
+@media (max-width: 450px) {
+    .hero-image {
+        background-image: url('../images/bg-intro-mobile.svg');
+        min-height: 300px;
+       
+    }
 }
 .navbar-collapse {
     flex-grow: initial;
@@ -25,11 +33,11 @@ p {
 }
 .card {
     position: relative;
-   
     background: white;
     overflow: hidden;
     z-index: 1;
 }
+
 .card-img{
     width: 60px;
     height: 60px;
@@ -43,10 +51,7 @@ header{
     padding-left: 80px;
 }
 .head{
-    background: url(../images/bg-intro-desktop.svg) no-repeat ;
-    width: 600px;
-    height: 700px;
-    background-size: cover;
+    margin-left: 60px;
 }
 .height{
     height: 600px;
@@ -82,6 +87,7 @@ footer a{
 }
 .width{
     width: 50%;
+    
 }
 a:hover{
     color:hsla(136, 64%, 51%, 0.604) ;
